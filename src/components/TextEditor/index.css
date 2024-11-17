@@ -1,0 +1,101 @@
+.text-editor-container {
+  background-color: #25262c;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-editor-card {
+  background-color: #1b1c22;
+  width: 80%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.text-editor-img {
+  width: 50%;
+}
+
+.heading1 {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: normal;
+}
+
+.text-editor {
+  width: 100%;
+}
+
+.text-area {
+  width: 50%;
+  background-color: #25262c;
+
+  border: 1px solid #334155;
+  border-radius: 15px;
+
+  margin: 20px;
+}
+
+.buttons-container {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 1px solid #334155;
+  margin: 0px;
+}
+
+.btn {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-size: 20px;
+  background-color: transparent;
+
+  border: none;
+
+  margin-left: 10px;
+  outline: none;
+}
+
+.italic-icon {
+  font-style: italic;
+}
+
+.underline-icon {
+  text-decoration: underline;
+}
+
+.bold-active-btn {
+  color: #faff00;
+  font-weight: bold;
+}
+
+.italic-active-btn {
+  color: #faff00;
+  font-style: italic;
+}
+
+.underline-active-btn {
+  color: #faff00;
+  text-decoration: underline;
+}
+
+.text-area-input-field {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f1f5f9;
+  padding: 20px;
+  background-color: transparent;
+
+  border: none;
+
+  outline: none;
+}
